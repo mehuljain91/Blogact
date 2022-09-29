@@ -12,7 +12,7 @@ import java.util.UUID;
  *
  * @author mehul jain
  */
-@Document(indexName = "blog_user", type = "user")
+@Document(indexName = "blog_user")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

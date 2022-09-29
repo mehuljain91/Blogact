@@ -15,5 +15,6 @@ public interface ArticleRepository extends ElasticsearchRepository<Article, Stri
 
     Optional<Article> findByLink(String link);
 
-    Page<Article> findByTitleContainingAndBodyContaining(String title, String body, Pageable pageable);
+    Page<Article> findByTitleContainingAndBodyContaining(String title, 
+            String body, Pageable pageable);
 }

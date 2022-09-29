@@ -14,7 +14,7 @@ import java.util.UUID;
  *
  * @author mehul jain
  */
-@Document(indexName = "blog_article", type = "article")
+@Document(indexName = "blog_article")
 @Data
 public class Article {
 
